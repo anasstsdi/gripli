@@ -11,7 +11,7 @@ class PostAdmin extends Admin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('emai', 'text', array('label' => 'Post Email'))
+            ->add('email', 'text', array('label' => 'Post Email'))
 
         ;
     }
